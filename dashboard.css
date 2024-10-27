@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+        
+        /* height: 100vh; */
+        background-color: #f0f0f0;
+    
+    
+}
+.Dashboard-container{
+    /* border: 3px solid yellow; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: xx-large;
+    
+}
+.nav-dashboard{
+    height: 80px;
+}
+
+
+.Dashboard-container{
+    background-color: #d20cbb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+.Dashboard-container:hover {
+    background-color: #d20cbb; 
+    color: #ffffff;
+    transform: scale(1.1); 
+}
+
+
+/* card css */
+
+/* Card container */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    margin-top: 50px;
+}
+
+/* Card styling */
+.card-design {
+    width: 370px;
+    
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+
+    margin: 20px;
+    transition: transform 0.3s;
+}
+
+/* Card hover effect */
+.card-design:hover {
+    transform: translateY(-10px);
+}
+
+/* Image styling */
+.card-design img {
+    width: 400px;
+    height:500px;
+    object-fit: cover;
+    border: 10px;
+}
+
+/* Content styling */
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Button styling */
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card-button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+
+
